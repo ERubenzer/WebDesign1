@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Positioning</title>
+    <link rel="icon" href="../images/icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/positioning.css">
+  </head>
+  <body>
+    <header id="top">
+      <img src="../images/wd1.png" alt="logo">
+      <h1>Web Design</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index1.html"> <img src="../images/icons/home.png" alt="home"> Home</a></li>
+        <li><a href="fundamentals.html"> <img src="../images/icons/document.png" alt="fundamentals"> HMTL Fundamentals</a></li>
+        <li><a href="fundamentals-flex.html"> <img src="../images/icons/document.png" alt="flex"> Flex Layout</a></li>
+        <li><a href="positioning.html"> <img src="../images/icons/trello-website-logo-small.png" alt="positioning"> Position &amp; Float</a></li>
+        <li><a href="graphics.html"> <img src="../images/icons/document.png" alt="graphic"> Graphic Design</a></li>
+        <li><a href="fundamentals-static.html"> <img src="../images/icons/document.png" alt="static"> Static Layout</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Fixed Positioning Section -->
+      <section class="container">
+        <h2>Fixed Positioning</h2>
+        <div class="fixed-container">
+          <!-- Explanation: This div will demonstrate fixed positioning -->
+          <!-- Fixed positioning is used to position an element relative to the browser window -->
+          <!-- It will remain in the same place even when the page is scrolled -->
+          <div id="box-fixed" class="box box-fixed-pos box-purple">
+            <p class="center">Fixed Box</p>
+          </div>
+        </div>
+        <p>
+          This box is fixed at a certain position on the screen. As you scroll,
+          notice how it stays in the same place relative to the viewport in the way top right of your screen. Fixed
+          positioning is often used for elements like navigation bars or
+          advertisements that need to remain visible regardless of scrolling.
+        </p>
+      </section>
+      <section class="container">
+        <h2>Static Positioning (normal flow)</h2>
+        <div id="box-1" class="box box-red"><p class="center">1</p></div>
+        <div id="box-2" class="box box-green"><p class="center">2</p></div>
+        <div id="box-3" class="box box-blue"><p class="center">3</p></div>
+        <hr>
+        <div id="box-4" class="box box-inline-block box-light-coral"><p class="center">4</p></div>
+        <div id="box-5" class="box box-inline-block box-light-green"><p class="center">5</p></div>
+        <div id="box-6" class="box box-inline-block box-light-sky-blue"><p class="center">6</p></div>
+      </section>
+      <section class="container">
+        <h2>Relative Positioning</h2>
+        <div id="box-7" class="box box-relative-pos box-red">
+          <p class="center">7</p>
+        </div>
+        <div id="box-8" class="box box-relative-pos box-green">
+          <p class="center">8</p>
+        </div>
+        <div id="box-9" class="box box-relative-pos box-blue">
+          <p class="center">9</p>
+        </div>
+        <hr>
+        <div
+          id="box-10"
+          class="box box-inline-block box-relative-pos box-light-coral">
+          <p class="center">10</p>
+        </div>
+        <div
+          id="box-11"
+          class="box box-inline-block box-relative-pos box-light-green">
+          <p class="center">11</p>
+        </div>
+        <div
+          id="box-12"
+          class="box box-inline-block box-relative-pos box-light-sky-blue">
+          <p class="center">12</p>
+        </div>
+      </section>
+      <section id="absolute-container" class="container">
+        <h2>Absolute Positioning &amp; Z-Index</h2>
+        <div id="box-13" class="box box-absolute-pos box-red">
+          <p class="center">13</p>
+        </div>
+        <div id="box-14" class="box box-absolute-pos box-green">
+          <p class="center">14</p>
+        </div>
+        <div id="box-15" class="box box-absolute-pos box-blue">
+          <p class="center">15</p>
+        </div>
+        <hr>
+        <div
+          id="box-16"
+          class="box box-inline-block box-absolute-pos box-light-coral">
+          <p class="center">16</p>
+        </div>
+        <div
+          id="box-17"
+          class="box box-inline-block box-absolute-pos box-light-green">
+          <p class="center">17</p>
+        </div>
+        <div
+          id="box-18"
+          class="box box-inline-block box-absolute-pos box-light-sky-blue">
+          <p class="center">18</p>
+        </div>
+      </section>
+      <section class="container">
+        <h2>Use of Float for layout Positioning</h2>
+        <div id="box-19" class="box box-float-pos box-red">
+          <p class="center">19</p>
+        </div>
+        <div id="box-20" class="box box-float-pos box-green">
+          <p class="center">20</p>
+        </div>
+        <div id="box-21" class="box box-float-pos box-blue">
+          <p class="center">21</p>
+        </div>
+        <hr>
+        <div
+          id="box-22"
+          class="box box-inline-block box-float-pos box-light-coral">
+          <p class="center">22</p>
+        </div>
+        <div
+          id="box-23"
+          class="box box-inline-block box-float-pos box-light-green">
+          <p class="center">23</p>
+        </div>
+        <div
+          id="box-24"
+          class="box box-inline-block box-float-pos box-light-sky-blue">
+          <p class="center">24</p>
+        </div>
+      </section>
+      <section class="container">
+        <h2>Appropriate use of Float Positioning &amp; overflow</h2>
+        <div class="overflow-auto">
+          <img id="moon-img" src="../images/moon-small.JPG" alt="A small image of the moon">
+          <p>
+            In web design, the float property is a CSS feature used to position elements horizontally within their container.
+            By applying float, elements can be shifted to the left or right, allowing text and other inline elements to wrap around them.
+            Common uses of float include creating magazine-style layouts or aligning images next to text. However, it's important
+            to note that floating elements are taken out of the normal document flow, which can affect the layout of other elements 
+            if not managed properly.
+          </p>
+          <p>
+            The clear property complements float by controlling the behavior of elements following floated ones. It ensures that 
+            elements appear below any preceding floated elements rather than wrapping around them. This is particularly useful for 
+            clearing floats in layouts to prevent elements from overlapping or behaving unpredictably. For example, setting clear: 
+            both on an element will push it below any floated elements, maintaining a clean and predictable layout structure.
+          </p>
+          <p>
+            In modern web design, while float and clear remain valuable tools, they are often supplemented or replaced by more
+            advanced layout techniques such as Flexbox or CSS Grid. These newer methods offer greater control and flexibility, 
+            enabling more complex and responsive designs without the quirks associated with floats. Nonetheless, understanding and 
+            correctly applying float and clear is essential for maintaining compatibility with older codebases and for certain design 
+            scenarios where their use is appropriate.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <address>
+        <a href="mailto:me@memyselfandi.com">me@memyselfandi.com</a><br>
+        <a href="tel:+15555555555">(555)&#8209;555&#8209;5555</a>
+        <p>
+          555 Fake Street South<br>
+          My City, ST 12345
+        </p>
+      </address>
+      <p>© 2022 Web Design 1</p>
+      <a href="#top">Go to Top</a>
+    </footer>
+  </body>
+</html>

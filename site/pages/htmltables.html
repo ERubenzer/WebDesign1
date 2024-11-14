@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/htmltables.css">
+</head>
+<body>
+    <header id="top">
+        <h1>HTML Tables</h1>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="../index1.html"> <img src="../images/icons/home.png" alt="home"> Home</a></li>
+          <li><a href="fundamentals.html"> <img src="../images/icons/document.png" alt="fundamentals"> HMTL Fundamentals</a></li>
+          <li><a href="fundamentals-flex.html"> <img src="../images/icons/document.png" alt="flex"> Flex Layout</a></li>
+          <li><a href="positioning.html"> <img src="../images/icons/trello-website-logo-small.png" alt="positioning"> Position &amp; Float</a></li>
+          <li><a href="graphics.html"> <img src="../images/icons/document.png" alt="graphic"> Graphic Design</a></li>
+          <li><a href="fundamentals-static.html"> <img src="../images/icons/document.png" alt="static"> Static Layout</a></li>
+        </ul>
+    </nav>
+    <main>
+    <h1>1. Esports Tournament Tracker</h1>
+    <table class="demo-table" id="esportsTable">
+        <thead>
+            <tr>
+                <th>Team Name</th>
+                <th>Wins</th>
+                <th>Prize Money</th>
+                <th>Roster Size</th>
+                <th>Win Rate</th>
+                <th>Most Played Game</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thunderstrike</td>
+                <td>32</td>
+                <td>$150,000</td>
+                <td>6</td>
+                <td>75%</td>
+                <td>League of Legends</td>
+                <td class="status-active">Active</td>
+            </tr>
+            <tr>
+                <td>Shadow Reapers</td>
+                <td>28</td>
+                <td>$120,000</td>
+                <td>5</td>
+                <td>70%</td>
+                <td>Dota 2</td>
+                <td class="status-active">Active</td>
+            </tr>
+            <tr>
+                <td>Vortex Sports</td>
+                <td>18</td>
+                <td>$80,000</td>
+                <td>7</td>
+                <td>60%</td>
+                <td>Valorant</td>
+                <td class="status-pending">Pending</td>
+            </tr>
+            <tr>
+                <td>Apex Fury</td>
+                <td>45</td>
+                <td>$200,000</td>
+                <td>6</td>
+                <td>80%</td>
+                <td>Call of Duty</td>
+                <td class="status-active">Active</td>
+            </tr>
+            <tr>
+                <td>Dark Phoenix</td>
+                <td>12</td>
+                <td>$55,000</td>
+                <td>5</td>
+                <td>55%</td>
+                <td>Rocket League</td>
+                <td class="status-pending">Pending</td>
+            </tr>
+            <tr>
+                <td>Iron Titans</td>
+                <td>38</td>
+                <td>$180,000</td>
+                <td>8</td>
+                <td>72%</td>
+                <td>Rocket-League</td>
+                <td class="status-active">Active</td>
+            </tr>
+            <tr>
+                <td>Digital Knights</td>
+                <td>26</td>
+                <td>$110,000</td>
+                <td>6</td>
+                <td>68%</td>
+                <td>Fortnite</td>
+                <td class="status-active">Active</td>
+            </tr>
+            <tr>
+                <td>Wolfpack Gaming</td>
+                <td>33</td>
+                <td>$140,000</td>
+                <td>5</td>
+                <td>74%</td>
+                <td>PUBG</td>
+                <td class="status-active">Active</td>
+            </tr>
+            <tr>
+                <td>Red Horizon</td>
+                <td>22</td>
+                <td>$95,000</td>
+                <td>6</td>
+                <td>66%</td>
+                <td>Overwatch</td>
+                <td class="status-pending">Pending</td>
+            </tr>
+            <tr>
+                <td>Storm Raiders</td>
+                <td>17</td>
+                <td>$85,000</td>
+                <td>5</td>
+                <td>59%</td>
+                <td>Hearthstone</td>
+                <td class="status-active">Active</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>2. Music Festival Guide</h1>
+    <table class="demo-table" id="festivalTable">
+        <thead>
+            <tr>
+                <th>Festival Name</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Headliners</th>
+                <th>Ticket Price Range</th>
+                <th>Genre</th>
+                <th>Capacity</th>
+                <th>Ticket Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Electric Vibes</td>
+                <td>7/15-17/-24</td>
+                <td>Miami, FL</td>
+                <td>Marshmello, Zedd</td>
+                <td>$100-$350</td>
+                <td>EDM</td>
+                <td>50,000</td>
+                <td class="status-active">Available</td>
+            </tr>
+            <tr>
+                <td>Summer Jam</td>
+                <td>6/21-23/-24</td>
+                <td>Los Angeles, CA</td>
+                <td>Travis Scott, Billie Eilish</td>
+                <td>$120-$400</td>
+                <td>Hip-Hop/Rap</td>
+                <td>40,000</td>
+                <td class="status-inactive">Sold Out</td>
+            </tr>
+            <tr>
+                <td>Rockfest</td>
+                <td>8/5-7/-24</td>
+                <td>Chicago, IL</td>
+                <td>Foo Fighters, Green Day</td>
+                <td>$80-$300</td>
+                <td>Rock</td>
+                <td>60,000</td>
+                <td class="status-active">Available</td>
+            </tr>
+            <tr>
+                <td>Moonlight Music Fest</td>
+                <td>9/10-12/-24</td>
+                <td>Austin, TX</td>
+                <td>Tame Impala, The Weeknd</td>
+                <td>$150-$450</td>
+                <td>Indie/Pop</td>
+                <td>30,000</td>
+                <td class="status-active">Available</td>
+            </tr>
+            <tr>
+                <td>Global Sounds</td>
+                <td>5/25-27/-24</td>
+                <td>New York, NY</td>
+                <td>Bad Bunny, Daddy Yankee</td>
+                <td>$90-$350</td>
+                <td>Latin</td>
+                <td>45,000</td>
+                <td class="status-pending">Selling Fast</td>
+            </tr>
+            <tr>
+                <td>Country Fest</td>
+                <td>7/10-12/-24</td>
+                <td>Nashville, TN</td>
+                <td>Luke Bryan, Blake Shelton</td>
+                <td>$95-$350</td>
+                <td>Country</td>
+                <td>35,000</td>
+                <td class="status-active">Available</td>
+            </tr>
+            <tr>
+                <td>Jazz in the Park</td>
+                <td>6/8-10/-24</td>
+                <td>New Orleans, LA</td>
+                <td>Herbie Hancocl, Wynton Marsalis</td>
+                <td>$70-$250</td>
+                <td>Jazz</td>
+                <td>25,000</td>
+                <td class="status-active">Available</td>
+            </tr>
+            <tr>
+                <td>The Groove</td>
+                <td>8/1-3/-24</td>
+                <td>Portland, OR</td>
+                <td>Anderson .Paak, J Cole</td>
+                <td>$110-$350</td>
+                <td>Hip-Hop/Soul</td>
+                <td>40,000</td>
+                <td class="status-inactive">Sold Out</td>
+            </tr>
+            <tr>
+                <td>Summer Breeze</td>
+                <td>7/22-24/-24</td>
+                <td>Miami, FL</td>
+                <td>Dua Lipa, Halsey</td>
+                <td>$100-$375</td>
+                <td>Pop</td>
+                <td>50,000</td>
+                <td class="status-active">Available</td>
+            </tr>
+            <tr>
+                <td>Desert Mirage</td>
+                <td>10/18-20/-24</td>
+                <td>Phoenix, AZ</td>
+                <td>The Strokes, Arctic Monkeys</td>
+                <td>$120-$400</td>
+                <td>Alternative</td>
+                <td>30,000</td>
+                <td class="status-pending">Selling Fast</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>3. Tech Startup Monitor</h1>
+    <table class="demo-table" id="startupTable">
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Company Name</th>
+                <th rowspan="2">Industry</th>
+                <th rowspan="1" colspan="2" scope="col">Funding</th>
+                <th rowspan="2">Employees</th>
+                <th rowspan="2">Growth Rate</th>
+                <th rowspan="2">Latest Product</th>
+            </tr>
+            <tr>
+                <th scope="col">Round</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TechNova</td>
+                <td>AI &amp; Machine Learning</td>
+                <td>Series A</td>
+                <td>$20M</td>
+                <td>120</td>
+                <td>30%</td>
+                <td>Smart AI Assistant</td>
+            </tr>
+            <tr>
+                <td>GreenTech Labs</td>
+                <td>Environmental Tech</td>
+                <td>Seed</td>
+                <td>$5M</td>
+                <td>40</td>
+                <td>50%</td>
+                <td>Solar Panel Efficiency Optimizer</td>
+            </tr>
+            <tr>
+                <td>CloudScape</td>
+                <td>Cloud Computing</td>
+                <td>Series B</td>
+                <td>$50M</td>
+                <td>300</td>
+                <td>35%</td>
+                <td>Cloud Data Storage Solution</td>
+            </tr>
+            <tr>
+                <td>QuantumSoft</td>
+                <td>Quantum Computing</td>
+                <td>Series C</td>
+                <td>$100M</td>
+                <td>150</td>
+                <td>25%</td>
+                <td>Quantum Encryption Software</td>
+            </tr>
+            <tr>
+                <td>AutoX</td>
+                <td>Automotive Tech</td>
+                <td>Series A</td>
+                <td>$30M</td>
+                <td>200</td>
+                <td>40%</td>
+                <td>Self-driving Car Technology</td>
+            </tr>
+            <tr>
+                <td>MedTech Solutions</td>
+                <td>Healthcare</td>
+                <td>Series B</td>
+                <td>$75M</td>
+                <td>500</td>
+                <td>20%</td>
+                <td>AI-powered Diagnostic Tool</td>
+            </tr>
+            <tr>
+                <td>EcoFuel</td>
+                <td>Renewable Energy</td>
+                <td>Seed</td>
+                <td>$8M</td>
+                <td>60</td>
+                <td>45%</td>
+                <td>Biofuel Generator</td>
+            </tr>
+            <tr>
+                <td>DataFlux</td>
+                <td>Big Data</td>
+                <td>Series C</td>
+                <td>$120M</td>
+                <td>450</td>
+                <td>28%</td>
+                <td>Predictive Analytics Software</td>
+            </tr>
+            <tr>
+                <td>BlockchainX</td>
+                <td>Blockchain</td>
+                <td>Series A</td>
+                <td>$25M</td>
+                <td>100</td>
+                <td>33%</td>
+                <td>Decentralized Payment System</td>
+            </tr>
+            <tr>
+                <td>NextGen Robotics</td>
+                <td>Robotics</td>
+                <td>Series B</td>
+                <td>$40M</td>
+                <td>250</td>
+                <td>38%</td>
+                <td>Robotic Arm for Manufacturing</td>
+            </tr>
+        </tbody>
+    </table>
+    </main>
+    <script src="../js/htmltables.js"></script>
+</body>
+</html>

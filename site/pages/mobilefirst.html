@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Restaurant Menu</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/mobilefirst.css">
+    <link rel="icon" href="../images/icons/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Header section with restaurant name and navigation-->
+     <header>
+        <h1>The Flavor Haven</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <!-- TODO: Add JavaScript to toggle the menu on mobile devices-->
+            <button id="menu-toggle" aria-label="Toggle menu" type="button">&#x2630;</button>
+                <!-- TODO: Replace this placeholder with the proper icon for hamburger menu-->
+            <ul id="main-nav">
+                <!-- TODO: Add any additional navigation links as needed -->
+                <li><a href="#home"><img src="../images/icons/home.png" alt="home" loading="lazy"> Home</a></li>
+                <li><a href="#menu"><img src="../images/icons/document.png" alt="menu" loading="lazy"> Menu</a></li>
+                <li><a href="#about"><img src="../images/icons/document.png" alt="about" loading="lazy"> About</a></li>
+                <li><a href="#contact"><img src="../images/icons/document.png" alt="contact" loading="lazy"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <h2 id="menu-header">Our Menu</h2>
+        <section id="menu-categories">
+        </section>
+
+        <!-- Featured dish section -->
+        <section id="featured-dish">
+            <h2>Featured Dish</h2>
+            <img src="../images/restaurant/grilledsalmon.jpg" alt="Featured dish: Grilled Salmon" id="featured-img" loading="lazy">
+            <div class="dish-details">
+                <h3>Grilled Salmon</h3>
+                <p>Fresh Atlantic salmon, grilled to perfection and served with a lemon butter sauce.</p>
+                <p class="price">$24.99</p>
+            </div>
+        </section>
+
+        <!-- Contact information and hours section -->
+        <section id="contact-info">
+            <h2>Contact Us</h2>
+            <address>
+                <p>123 Haven Lane, Foodville, TS 12345</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: info@foodhaven.com</p>
+            </address>
+            <div id="hours">
+                <h3>Hours of Operation</h3>
+                <ul>
+                    <li>Monday - Friday: 9:00 AM - 10:00 PM</li>
+                    <li>Saturday - Sunday: 10:00 AM - 9:00 PM</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Food Haven. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript section -->
+    <script src="../js/mobilefirst.js"></script>
+    <!-- TODO: Write JavaScript for the interactive hamburger menu -->
+</body>
+</html>
